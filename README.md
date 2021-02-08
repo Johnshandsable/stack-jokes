@@ -1,9 +1,10 @@
 ## Node Express jQuery Code Challenge
 
 ### Objectives
-- Send requests to the server from client using an AJAX request(s),
-- Display response on the DOM,
-- Demonstrate the separation of logic between the client and the server.
+
+[x] - Send requests to the server from client using an AJAX request(s),
+[x] - Display response on the DOM,
+[x] - Demonstrate the separation of logic between the client and the server.
 
 ### The Joke Book
 
@@ -12,7 +13,8 @@ Your client has asked you to create a Joke Book application. The server will con
 Your job will be to build up the server around the data in the `server/server.js` file, display the current jokes to the DOM, and add the ability for users to add their own jokes and display these too.
 
 ##### How the joke data is structured
-You can view the full object in ```server/server.js```. The data structure is an array of objects. These objects have three properties: whoseJoke, jokeQuestion, and punchLine.
+
+You can view the full object in `server/server.js`. The data structure is an array of objects. These objects have three properties: whoseJoke, jokeQuestion, and punchLine.
 
 ```JavaScript
 let jokes = [
@@ -26,10 +28,10 @@ let jokes = [
 
 To get started, fork this repo and clone it to your machine.
 
-Overview
---------
-* when the app is loaded, all jokes should be displayed on the DOM below the inputs
-* the user should be able to add jokes using the input form
-* after a joke is added, the jokes displayed on the DOM should reflect the new data
+## Overview
+
+- when the app is loaded, all jokes should be displayed on the DOM below the inputs
+- the user should be able to add jokes using the input form
+- after a joke is added, the jokes displayed on the DOM should reflect the new data
 
 Remember to work in small increments and test often. If you want to take things further, first push the working basic mode to your github and update it after.
