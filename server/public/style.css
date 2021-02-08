@@ -1,7 +1,7 @@
 body {
   background-image: url(jiggly.png);
   background-repeat: repeat;
-  color: #ff9f43;
+  color: #ff9e43;
   margin: 0;
 }
 
@@ -15,6 +15,7 @@ h2 {
 }
 
 ul {
+  font-size: 20px;
   list-style-type: square;
   list-style-position: outside;
   list-style-image: none;
@@ -46,4 +47,11 @@ button {
   margin-left: 5px;
   padding: 0;
   text-align: left;
+}
+
+.jokeBox {
+  background-color: rgba(0, 0, 0, 0.493);
+  display: flex;
+  justify-content: center;
+  width: 75%;
 }
