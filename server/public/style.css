@@ -1,5 +1,7 @@
 body {
-  background-color: blanchedalmond;
+  background-image: url(jiggly.png);
+  background-repeat: repeat;
+  color: #ff9f43;
   margin: 0;
 }
 
