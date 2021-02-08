@@ -69,9 +69,18 @@ function getAllJokes() {
 
 function renderToDom(jokesList) {
   console.log('inside renderToDom() ');
+  $('#outputDiv').empty(); // empty before displaying to the DOM again
+
   for (const joke of jokesList) {
     $('#outputDiv').append(
       `<li>${joke.whoseJoke} - ${joke.jokeQuestion} ${joke.punchLine}</li>`
     );
   }
+  clearInputs();
+}
+
+function clearInputs() {
+  $('#whoseJokeIn').val('');
+  $('#questionIn').val('');
+  $('#punchlineIn').val('');
 }

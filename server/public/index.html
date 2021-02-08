@@ -1,19 +1,33 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <meta charset="utf-8">
+    <meta charset="utf-8" />
     <title>JEN Stack Code Challenge</title>
     <script src="vendors/jquery.min.js" charset="utf-8"></script>
     <script src="scripts/client.js" charset="utf-8"></script>
+    <link rel="stylesheet" href="style.css" />
   </head>
   <body>
     <h1>JEN Stack Code Challenge</h1>
-    <input type='text' id='whoseJokeIn' placeholder='whose joke' />
-    <input type='text' id='questionIn' placeholder='question' />
-    <input type='text' id='punchlineIn' placeholder='punchline' />
-    <button id='addJokeButton'>Add Joke</button>
-    <h2>Jokes:</h2>
-    <div id='outputDiv'>
+    <!-- This is not a form -->
+    <div id="notaform">
+      <label for="whoseJokeIn">Author</label>
+      <input type="text" id="whoseJokeIn" placeholder="Anonymous" />
+      <label for="questionIn">Joke Setup</label>
+      <input
+        type="text"
+        id="questionIn"
+        placeholder="Did you hear about the claustrophobic astronaut?"
+      />
+      <label for="punchlineIn">Punchline</label>
+      <input
+        type="text"
+        id="punchlineIn"
+        placeholder="He just needed a little space"
+      />
+      <button id="addJokeButton">Add Joke</button>
     </div>
+    <h2>Jokes:</h2>
+    <ul id="outputDiv"></ul>
   </body>
 </html>

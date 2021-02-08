@@ -1,0 +1,46 @@
+body {
+  background-color: blanchedalmond;
+  margin: 0;
+}
+
+h1 {
+  margin: 0;
+  text-align: center;
+}
+
+h2 {
+  margin-left: 5%;
+}
+
+ul {
+  list-style-type: square;
+  list-style-position: outside;
+  list-style-image: none;
+}
+
+button {
+  background-color: #ff6b6b;
+  width: 50%;
+}
+
+#notaform {
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  width: 25%;
+}
+
+#notaform * {
+  border: 2px solid grey;
+  border-radius: 4px;
+  font-size: 20px;
+  margin: 5px;
+  padding: 10px;
+}
+
+#notaform label {
+  border: none;
+  margin-left: 5px;
+  padding: 0;
+  text-align: left;
+}
